@@ -1,0 +1,62 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    background-image: url("wave.svg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.ic-form{
+    background-color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 900px;
+    height: 120vh;
+    display: grid;
+    place-items: center;
+    /* border: 1px solid black; */
+    border-radius: 20px; 
+    -webkit-box-shadow: 0px 9px 26px -10px rgba(0,0,0,0.65);
+-moz-box-shadow: 0px 9px 26px -10px rgba(0,0,0,0.65);
+box-shadow: 0px 9px 26px -10px rgba(0,0,0,0.65);
+}
+
+.category-problems, .status-info{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+label{
+    margin-top: 8px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 700;
+}
+
+textarea{
+    border-radius: 5px;
+}
+
+.masalah, .fitur, .label, .catatan{
+    margin-bottom: 10px;
+}
+
+button{
+    width: 120px;
+    margin-top: 25px;
+    height: 5vh;
+    margin-bottom: 20px;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: orangered;
+}
